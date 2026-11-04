@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OCANTO Negocios Inmobiliarios | San Justo · La Matanza</title>
+  <meta name="description" content="Martillero y Corredor Público Mat. N.º 1024 CPMCLMT. Perito Judicial SCBA Acordada 2728/96. Administración de consorcios RPAC. San Justo, Buenos Aires.">
+
+  <!-- Open Graph / Meta para compartir en WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ocanto.com.ar/">
+  <meta property="og:title" content="OCANTO Negocios Inmobiliarios | Mat. 1024">
+  <meta property="og:description" content="Venta, alquileres, tasaciones oficiales y consorcios en San Justo. Atención directa por Martillero Colegiado y Perito Judicial.">
+  <meta property="og:locale" content="es_AR">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#0f172a',
+              navyDark: '#020617',
+              navyLight: '#1e293b',
+              steel: '#475569',
+              ice: '#f8fafc',
+              gold: '#d97706',
+              accent: '#2563eb'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    details > summary::-webkit-details-marker { display: none; }
+  </style>
+</head>
+<body class="bg-brand-ice text-slate-800 antialiased selection:bg-brand-navy selection:text-white">
+
+  <!-- 1. BARRA SUPERIOR INSTITUCIONAL -->
+  <aside aria-label="Acreditaciones profesionales oficiales" class="bg-brand-navyDark text-slate-300 text-xs py-2.5 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center flex-wrap gap-x-4 gap-y-1">
+        <span class="inline-flex items-center gap-1.5 font-semibold text-white">
+          <i class="fa-solid fa-scale-balanced text-amber-400"></i> Mat. N.º 1024
+          <span class="text-slate-400 font-normal">· Col. Martilleros y Corredores La Matanza</span>
+        </span>
+        <span class="hidden md:inline text-slate-600">|</span>
+        <span class="hidden sm:inline-flex items-center gap-1 text-slate-300">
+          <i class="fa-solid fa-gavel text-amber-400 text-[11px]"></i> Perito Judicial (Acordada 2728/96 SCBA)
+        </span>
+        <span class="hidden lg:inline text-slate-600">|</span>
+        <span class="hidden lg:inline text-slate-300">Inscripto RPAC (Ley 14.701 PBA)</span>
+      </div>
+      <div class="flex items-center gap-3 text-slate-400 text-xs">
+        <span class="flex items-center gap-1.5">
+          <i class="fa-solid fa-location-dot text-rose-400 text-xs"></i> San Justo, Buenos Aires
+        </span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 2. NAVEGACIÓN PRINCIPAL -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Marca Limpia sin matrícula en logo -->
+      <a href="#" class="flex flex-col group">
+        <span class="text-2xl font-extrabold tracking-tight text-brand-navy group-hover:text-brand-accent transition leading-none">
+          OCANTO
+        </span>
+        <span class="text-xs font-bold tracking-widest text-slate-500 uppercase mt-1">
+          Negocios Inmobiliarios
+        </span>
+      </a>
+
+      <!-- Enlaces Escritorio -->
+      <nav class="hidden md:flex items-center gap-7 font-semibold text-sm text-slate-700">
+        <a href="#servicios" class="hover:text-brand-accent transition">Servicios</a>
+        <a href="#propiedades" class="hover:text-brand-accent transition">Propiedades</a>
+        <a href="#opiniones" class="hover:text-brand-accent transition flex items-center gap-1">
+          <i class="fa-solid fa-star text-amber-400 text-xs"></i> Reseñas
+        </a>
+        <a href="#faq" class="hover:text-brand-accent transition">Preguntas</a>
+      </nav>
+
+      <!-- Botón de Contacto Rápido -->
+      <div class="flex items-center gap-3">
+        <a href="#contacto" class="hidden sm:inline-flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-brand-navy font-bold text-xs uppercase tracking-wider px-3.5 py-2.5 rounded-xl border border-slate-300 transition">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <span>Pedir Tasación</span>
+        </a>
+        <a href="https://wa.me/5491132967120?text=Hola%20Maximiliano,%20me%20comunico%20desde%20la%20p%C3%A1gina%20web" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm px-4 py-2.5 rounded-xl shadow-sm transition">
+          <i class="fa-brands fa-whatsapp text-lg"></i>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- 3. HERO SECTION -->
+  <section class="relative bg-gradient-to-b from-white via-slate-50 to-brand-ice pt-12 pb-16 md:pt-20 md:pb-24 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <div class="inline-flex items-center gap-2 bg-slate-200/90 text-brand-navy px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            Atención Directa · San Justo y La Matanza
+          </div>
+
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-navy tracking-tight leading-tight">
+            Venta, alquiler y tasaciones reales en San Justo
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+            Atención profesional a cargo de <strong class="text-slate-900 font-bold">Maximiliano Ocanto</strong>. Sin intermediarios ni promesas vacías: valores fundamentados para concretar operaciones, control riguroso de títulos y la tranquilidad de operar con palabra firme.
+          </p>
+
+          <!-- Tarjetas de Acreditación Rápida -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 text-left">
+            <div class="bg-white border border-slate-200 p-3.5 rounded-xl shadow-xs">
+              <span class="block text-[11px] text-slate-500 font-bold uppercase tracking-wider">Colegiado</span>
+              <span class="text-sm font-bold text-brand-navy">Matrícula 1024</span>
+              <p class="text-[11px] text-slate-500 mt-0.5">Col. Martilleros La Matanza</p>
+            </div>
+            <div class="bg-white border border-slate-200 p-3.5 rounded-xl shadow-xs">
+              <span class="block text-[11px] text-slate-500 font-bold uppercase tracking-wider">Poder Judicial</span>
+              <span class="text-sm font-bold text-brand-navy">Perito Oficial SCBA</span>
+              <p class="text-[11px] text-slate-500 mt-0.5">Acordada 2728/96</p>
+            </div>
+            <div class="bg-white border border-slate-200 p-3.5 rounded-xl shadow-xs">
+              <span class="block text-[11px] text-slate-500 font-bold uppercase tracking-wider">Edificios</span>
+              <span class="text-sm font-bold text-brand-navy">Inscripto RPAC</span>
+              <p class="text-[11px] text-slate-500 mt-0.5">Ley 14.701 PBA</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-3.5 pt-3 justify-center lg:justify-start">
+            <a href="#contacto" class="inline-flex items-center justify-center gap-2 bg-brand-navy hover:bg-brand-navyLight text-white font-bold px-6 py-3.5 rounded-xl shadow-md transition text-sm">
+              <i class="fa-solid fa-calculator text-amber-400"></i>
+              <span>Solicitar Tasación Inmobiliaria</span>
+            </a>
+            <a href="#propiedades" class="inline-flex items-center justify-center gap-2 bg-white border border-slate-300 hover:border-slate-400 text-slate-800 font-bold px-6 py-3.5 rounded-xl shadow-xs transition text-sm">
+              <i class="fa-solid fa-house-chimney text-brand-accent"></i>
+              <span>Ver Propiedades</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Columna de Garantías Operativas -->
+        <div class="lg:col-span-5">
+          <div class="bg-brand-navy text-white p-7 sm:p-9 rounded-2xl shadow-xl space-y-6 relative overflow-hidden">
+            <div class="absolute -right-10 -bottom-10 w-44 h-44 bg-blue-500/10 rounded-full blur-2xl pointer-events-none"></div>
+
+            <div class="border-b border-slate-700/80 pb-5">
+              <span class="text-xs uppercase font-extrabold tracking-wider text-amber-400">Garantía Profesional</span>
+              <h2 class="text-xl font-bold mt-1 text-white">¿Por qué confiar su propiedad con nosotros?</h2>
+            </div>
+
+            <ul class="space-y-4 text-sm text-slate-200">
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-circle-check text-emerald-400 mt-1"></i>
+                <span><strong class="text-white">Atención directa por martillero:</strong> Cada consulta, visita y negociación la conduce Maximiliano Ocanto en persona.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-circle-check text-emerald-400 mt-1"></i>
+                <span><strong class="text-white">Tasaciones certeras:</strong> No inflamos valores para retener carteles; analizamos valores de cierre efectivos para vender en tiempo prudencial.</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <i class="fa-solid fa-circle-check text-emerald-400 mt-1"></i>
+                <span><strong class="text-white">Control legal integral:</strong> Verificación previa de inhibiciones, títulos perfectos y estados parcelarios antes de celebrar boletos.</span>
+              </li>
+            </ul>
+
+            <div class="pt-2 border-t border-slate-700/80">
+              <a href="https://maps.app.goo.gl/bka3apY96Kv8nMZg9" target="_blank" rel="noopener noreferrer" class="flex items-center justify-between text-xs text-slate-300 hover:text-white transition group">
+                <span class="flex items-center gap-1.5 font-bold">
+                  <span class="text-amber-400">★★★★★</span> 5.0 en Google Reseñas
+                </span>
+                <span class="underline group-hover:no-underline">Ver en Google Maps &rarr;</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. SECCIÓN DE SERVICIOS PROFESIONALES (6 PILARES CLAVE) -->
+  <section id="servicios" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mx-auto text-center mb-12">
+        <span class="text-xs font-bold uppercase tracking-wider text-brand-accent bg-blue-50 px-3 py-1 rounded-md">
+          Servicios Integrales
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-black text-brand-navy mt-3">
+          Soluciones inmobiliarias, legales y de gestión
+        </h2>
+        <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+          Atención matriculada directa de punta a punta, sin intermediarios ni demoras burocráticas en San Justo y La Matanza.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- 1. Venta de Propiedades -->
+        <div class="bg-slate-50 border border-slate-200 hover:border-slate-300 rounded-2xl p-6 transition flex flex-col justify-between shadow-xs">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-blue-100 text-brand-accent flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-house-chimney"></i>
+            </div>
+            <h3 class="text-lg font-bold text-brand-navy mb-2">Venta de Propiedades</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Comercialización estratégica, filtro riguroso de interesados solventes, difusión en portales líderes y acompañamiento legal hasta la firma de la escritura traslativa de dominio.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-200/80">
+            <a href="https://wa.me/5491132967120?text=Hola%20Maximiliano,%20quisiera%20consultar%20para%20poner%20en%20venta%20mi%20propiedad" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-brand-accent hover:text-blue-800 flex items-center gap-1.5">
+              <span>Quiero vender mi propiedad</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. Alquileres & Contratos -->
+        <div class="bg-slate-50 border border-slate-200 hover:border-slate-300 rounded-2xl p-6 transition flex flex-col justify-between shadow-xs">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-key"></i>
+            </div>
+            <h3 class="text-lg font-bold text-brand-navy mb-2">Alquileres y Contratos</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Verificación exhaustiva de garantías (recibos de sueldo, seguros de caución, garantías propietarias), redacción de contratos según Código Civil y Comercial y administración mensual de cobro.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-200/80">
+            <a href="https://wa.me/5491132967120?text=Hola%20Maximiliano,%20quisiera%20consultar%20por%20gesti%C3%B3n%20de%20alquileres" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-brand-accent hover:text-blue-800 flex items-center gap-1.5">
+              <span>Consultar por alquiler</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. Tasaciones Profesionales -->
+        <div class="bg-slate-50 border border-slate-200 hover:border-slate-300 rounded-2xl p-6 transition flex flex-col justify-between shadow-xs">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-calculator"></i>
+            </div>
+            <h3 class="text-lg font-bold text-brand-navy mb-2">Tasaciones Profesionales</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Valores fundamentados con valores de cierre efectivos y comparativa zonal en San Justo. Informes técnicos por escrito para operaciones de compraventa, divisiones conyugales y herencias.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-200/80">
+            <a href="https://wa.me/5491132967120?text=Hola%20Maximiliano,%20necesito%20solicitar%20una%20tasaci%C3%B3n%20inmobiliaria" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-brand-accent hover:text-blue-800 flex items-center gap-1.5">
+              <span>Solicitar tasación oficial</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Peritajes Judiciales (SCBA) -->
+        <div class="bg-slate-50 border border-slate-200 hover:border-slate-300 rounded-2xl p-6 transition flex flex-col justify-between shadow-xs">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-gavel"></i>
+            </div>
+            <h3 class="text-lg font-bold text-brand-navy mb-2">Peritajes Judiciales (SCBA)</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Actuación como Auxiliar de la Justicia bajo Acordada 2728/96 SCBA en los Tribunales de La Matanza. Dictámenes periciales para sucesiones, particiones judiciales y juicios de escrituración.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-200/80">
+            <a href="https://wa.me/5491132967120?text=Hola%20Maximiliano,%20necesito%20asesoramiento%20por%20peritaje%20judicial%20o%20sucesi%C3%B3n" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-brand-accent hover:text-blue-800 flex items-center gap-1.5">
+              <span>Consulta pericial / judicial</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- 5. Administración de Consorcios -->
+        <div class="bg-slate-50 border border-slate-200 hover:border-slate-300 rounded-2xl p-6 transition flex flex-col justify-between shadow-xs">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-rose-100 text-rose-700 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-building-user"></i>
+            </div>
+            <h3 class="text-lg font-bold text-brand-navy mb-2">Administración de Consorcios</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Gestión profesional inscripta en RPAC (Ley 14.701 PBA). Rendiciones de cuentas mensuales claras, control de proveedores certificados y resolución ágil de reclamos edilicios.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-200/80">
+            <a href="https://wa.me/5491132967120?text=Hola%20Maximiliano,%20solicito%20propuesta%20para%20administraci%C3%B3n%20de%20consorcio" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-brand-accent hover:text-blue-800 flex items-center gap-1.5">
+              <span>Pedir propuesta de consorcio</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- 6. Gestión de Documentación Inmobiliaria -->
+        <div class="bg-slate-50 border border-slate-200 hover:border-slate-300 rounded-2xl p-6 transition flex flex-col justify-between shadow-xs">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-file-contract"></i>
+            </div>
+            <h3 class="text-lg font-bold text-brand-navy mb-2">Gestión Documental y Catastral</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Saneamiento previo de títulos: solicitud de informes de dominio e inhibición ante el Registro de la Propiedad Inmueble, estados parcelarios, planos de obra y preparación de carpetas apto crédito.
+            </p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-200/80">
+            <a href="https://wa.me/5491132967120?text=Hola%20Maximiliano,%20necesito%20regularizar%20o%20revisar%20documentaci%C3%B3n%20inmobiliaria" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-brand-accent hover:text-blue-800 flex items-center gap-1.5">
+              <span>Consultar por documentación</span> &rarr;
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5. MÓDULO DE CARTERA ACTIVA (100% LIBRE DE MANTENIMIENTO) -->
+  <section id="propiedades" class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mx-auto text-center mb-10">
+        <span class="text-xs font-bold uppercase tracking-wider text-brand-accent bg-blue-50 px-3 py-1 rounded-md">
+          Cartera Inmobiliaria
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-black text-brand-navy mt-3">
+          Propiedades publicadas y disponibles
+        </h2>
+        <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+          Centralizamos todo nuestro inventario en tiempo real para que pueda consultar valores vigentes, fotos y descripciones técnicas completas.
+        </p>
+      </div>
+
+      <!-- Recuadro Único Centralizado -->
+      <div class="max-w-3xl mx-auto bg-white rounded-2xl border border-slate-200 p-8 sm:p-10 shadow-xs">
+        <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
+          
+          <div class="w-16 h-16 rounded-2xl bg-brand-navy text-white flex items-center justify-center text-2xl shrink-0 shadow-sm">
+            <i class="fa-solid fa-layer-group"></i>
+          </div>
+
+          <div class="space-y-3 flex-1">
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2">
+              <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded">Venta y Alquiler</span>
+              <span class="text-[11px] font-bold uppercase tracking-wider text-brand-navy bg-slate-100 px-2.5 py-0.5 rounded">Residencial & Comercial</span>
+            </div>
+
+            <h3 class="text-xl font-bold text-brand-navy">
+              Catálogo oficial de propiedades
+            </h3>
+
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Casas, departamentos, PHs, locales comerciales y lotes en San Justo y zonas de influencia. Ingrese a nuestro catálogo para ver disponibilidad en tiempo real.
+            </p>
+
+            <div class="pt-4 flex flex-col sm:flex-row gap-3">
+              <a href="https://inmuebles.mercadolibre.com.ar/_CustId_26635519" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-brand-navy hover:bg-brand-navyLight text-white font-bold text-xs uppercase tracking-wider py-3.5 px-6 rounded-xl transition shadow-sm">
+                <span>Ver publicaciones en Mercado Libre</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+              </a>
+
+              <a href="https://wa.me/5491132967120?text=Hola%20Maximiliano,%20quisiera%20consultar%20por%20propiedades%20disponibles" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs uppercase tracking-wider py-3.5 px-5 rounded-xl transition shadow-sm">
+                <i class="fa-brands fa-whatsapp text-sm"></i>
+                <span>Consultar por WhatsApp</span>
+              </a>
+            </div>
+
+            <p class="text-[11px] text-slate-400 pt-1 text-center sm:text-left">
+              * El listado se abre en una pestaña nueva y está sincronizado directamente con nuestras publicaciones activas.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 6. RESEÑAS VERIFICADAS DE GOOGLE BUSINESS PROFILE -->
+  <section id="opiniones" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Insignia Principal de Google Maps -->
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8 mb-12 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xs">
+        <div class="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
+          
+          <div class="w-14 h-14 bg-white rounded-2xl shadow-xs border border-slate-200 flex items-center justify-center shrink-0">
+            <svg class="w-8 h-8" viewBox="0 0 24 24">
+              <path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.665-5.17 3.665-9.17z"/>
+              <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.33 24 12 24z"/>
+              <path fill="#FBBC05" d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 9.99 0 12s.45 3.82 1.25 5.42l4.03-3.15z"/>
+              <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.33 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"/>
+            </svg>
+          </div>
+
+          <div>
+            <div class="flex items-center justify-center sm:justify-start gap-2">
+              <span class="text-2xl font-black text-slate-900 leading-none">5.0</span>
+              <div class="flex text-amber-400 text-sm">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-xs bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 rounded-md">Perfil Verificado</span>
+            </div>
+            <p class="text-sm font-bold text-slate-800 mt-1">Ocanto Negocios Inmobiliarios en Google Maps</p>
+            <p class="text-xs text-slate-500">Opiniones públicas y auténticas registradas en nuestro perfil comercial oficial.</p>
+          </div>
+
+        </div>
+
+        <a href="https://maps.app.goo.gl/bka3apY96Kv8nMZg9" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-white hover:bg-slate-100 text-slate-800 border border-slate-300 font-bold text-xs uppercase tracking-wider px-5 py-3 rounded-xl transition shadow-xs shrink-0">
+          <i class="fa-solid fa-arrow-up-right-from-square text-slate-500"></i>
+          <span>Ver ficha en Google Maps</span>
+        </a>
+      </div>
+
+      <!-- Las 3 Opiniones Reales Transcritas -->
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <!-- Opinión 1: Felipe Arenzana (Abogado) -->
+        <article class="bg-white border border-slate-200 hover:border-slate-300 rounded-2xl p-6 shadow-xs flex flex-col justify-between transition">
+          <div class="space-y-4">
+            <div class="flex justify-between items-start">
+              <div class="flex text-amber-400 text-xs gap-0.5">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-[11px] text-slate-400">Hace 1 año · Google</span>
+            </div>
+            
+            <p class="text-slate-700 text-sm leading-relaxed italic">
+              "Tuve una excelente experiencia con este estudio inmobiliario. Fui abogado del vendedor en una operación y, aunque no los conocía previamente, el trato fue siempre cordial, profesional y muy amable. Siempre predispuestos a compartir información y contestando los mensajes sin demoras. Me transmitieron <strong>seguridad y confianza</strong> durante todo el proceso, lo cual hizo que la operación avanzara con fluidez y sin contratiempos. Da gusto trabajar con gente así. ¡Muy recomendables!"
+            </p>
+          </div>
+
+          <div class="pt-5 mt-5 border-t border-slate-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-brand-navy text-white font-bold flex items-center justify-center text-xs shrink-0">
+              FA
+            </div>
+            <div>
+              <p class="text-sm font-bold text-slate-900 leading-tight">Felipe Arenzana</p>
+              <p class="text-xs text-slate-500 font-medium">Petersen & Arenzana, Abogados · Local Guide</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Opinión 2: Marcelo Vargas (Palabra empeñada) -->
+        <article class="bg-white border border-slate-200 hover:border-slate-300 rounded-2xl p-6 shadow-xs flex flex-col justify-between transition">
+          <div class="space-y-4">
+            <div class="flex justify-between items-start">
+              <div class="flex text-amber-400 text-xs gap-0.5">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-[11px] text-slate-400">Hace 2 años · Google</span>
+            </div>
+            
+            <p class="text-slate-700 text-sm leading-relaxed italic">
+              "Muy buen servicio, atención personalizada, asesoramiento. Gracias a Ocanto pudimos comprar nuestra casa propia. En lo personal agradecemos a Maximiliano por el acompañamiento, calidez, buen trato. <strong>Una persona de palabra, la mantuvo aún cuando podría haber cambiado en cualquier momento, no teníamos nada firmado</strong>, de eso ya no se encuentra. Cien por ciento recomendable."
+            </p>
+          </div>
+
+          <div class="pt-5 mt-5 border-t border-slate-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-slate-700 text-white font-bold flex items-center justify-center text-xs shrink-0">
+              MV
+            </div>
+            <div>
+              <p class="text-sm font-bold text-slate-900 leading-tight">Marcelo Vargas</p>
+              <p class="text-xs text-slate-500 font-medium">Compra de primera vivienda familiar</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- Opinión 3: Alessio Nicolás Tunes / Familia Acuña -->
+        <article class="bg-white border border-slate-200 hover:border-slate-300 rounded-2xl p-6 shadow-xs flex flex-col justify-between transition">
+          <div class="space-y-4">
+            <div class="flex justify-between items-start">
+              <div class="flex text-amber-400 text-xs gap-0.5">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-[11px] text-slate-400">Hace 2 años · Google</span>
+            </div>
+            
+            <p class="text-slate-700 text-sm leading-relaxed italic">
+              "En cada ocasión de recomendar un agente inmobiliario o cualquier asunto relacionado a la propiedad lo hacemos con Maximiliano Ocanto. Tiene un trato tan serio y familiar que es un gusto. <strong>Hoy no resulta sencillo encontrar gente realmente simple y honesta</strong>, en este u otros rubros. Confiamos plenamente en él. No solo mi compra resultó simple sino además su forma en los detalles hace que todo resulte más sencillo."
+            </p>
+          </div>
+
+          <div class="pt-5 mt-5 border-t border-slate-100 flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full bg-brand-steel text-white font-bold flex items-center justify-center text-xs shrink-0">
+              AT
+            </div>
+            <div>
+              <p class="text-sm font-bold text-slate-900 leading-tight">Alessio Nicolás Tunes</p>
+              <p class="text-xs text-slate-500 font-medium">María Noel y Javier Acuña · Tablada</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. PREGUNTAS FRECUENTES INTERACTIVAS (FAQ) -->
+  <section id="faq" class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-10">
+        <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Aclaraciones Directas</span>
+        <h2 class="text-2xl font-black text-brand-navy mt-1">Preguntas Frecuentes</h2>
+        <p class="text-slate-600 text-sm mt-1">Respuestas concretas a las consultas previas más habituales.</p>
+      </div>
+
+      <div class="space-y-3.5">
+        
+        <details class="group bg-white border border-slate-200 rounded-2xl p-5 shadow-xs transition" open>
+          <summary class="flex justify-between items-center cursor-pointer font-bold text-slate-900 text-sm sm:text-base list-none">
+            <span class="flex items-center gap-2.5">
+              <i class="fa-regular fa-circle-question text-brand-accent"></i>
+              ¿Qué documentación necesito presentar para tasar una propiedad?
+            </span>
+            <span class="text-slate-400 group-open:rotate-180 transition transform text-xs">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </summary>
+          <div class="text-slate-600 text-sm mt-3 pt-3 border-t border-slate-100 pl-7 leading-relaxed">
+            Para la inspección ocular inicial alcanza con la dirección precisa del inmueble. Para expedir el dictamen o informe técnico por escrito, se solicita copia simple del título de propiedad o escritura, plano de obra/subdivisión (si estuviese disponible) y una boleta de impuesto municipal o inmobiliario para verificar la nomenclatura catastral.
+          </div>
+        </details>
+
+        <details class="group bg-white border border-slate-200 rounded-2xl p-5 shadow-xs transition">
+          <summary class="flex justify-between items-center cursor-pointer font-bold text-slate-900 text-sm sm:text-base list-none">
+            <span class="flex items-center gap-2.5">
+              <i class="fa-regular fa-circle-question text-brand-accent"></i>
+              ¿En cuánto tiempo se entrega un informe pericial o tasación oficial?
+            </span>
+            <span class="text-slate-400 group-open:rotate-180 transition transform text-xs">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </summary>
+          <div class="text-slate-600 text-sm mt-3 pt-3 border-t border-slate-100 pl-7 leading-relaxed">
+            Las tasaciones comerciales para venta se entregan habitualmente entre 48 y 72 horas hábiles tras la visita. En el caso de peritajes judiciales (sucesiones o expedientes en los tribunales de La Matanza bajo la Acordada 2728/96 SCBA), los plazos se fijan de acuerdo con las cédulas y los plazos procesales acordados con el letrado patrocinante.
+          </div>
+        </details>
+
+        <details class="group bg-white border border-slate-200 rounded-2xl p-5 shadow-xs transition">
+          <summary class="flex justify-between items-center cursor-pointer font-bold text-slate-900 text-sm sm:text-base list-none">
+            <span class="flex items-center gap-2.5">
+              <i class="fa-regular fa-circle-question text-brand-accent"></i>
+              ¿Cómo realizamos el cambio de administración en nuestro consorcio?
+            </span>
+            <span class="text-slate-400 group-open:rotate-180 transition transform text-xs">
+              <i class="fa-solid fa-chevron-down"></i>
+            </span>
+          </summary>
+          <div class="text-slate-600 text-sm mt-3 pt-3 border-t border-slate-100 pl-7 leading-relaxed">
+            El cambio se determina mediante Asamblea Extraordinaria conforme al Código Civil y Comercial y al reglamento de copropiedad. Brindamos asesoramiento previo sobre la convocatoria para que la remoción y designación tengan plena validez legal, garantizando el posterior traspaso formal de libros contables, actas y fondos de reserva.
+          </div>
+        </details>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 8. FORMULARIO INTERACTIVO PRECALIFICADOR DE WHATSAPP -->
+  <section id="contacto" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center mb-8">
+        <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Atención Personalizada</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-brand-navy mt-1">Inicie su consulta directa</h2>
+        <p class="text-slate-600 text-sm mt-2">Complete el formulario y se abrirá su WhatsApp con el mensaje armado listo para enviar.</p>
+      </div>
+
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
+        <form id="leadForm" onsubmit="procesarConsulta(event)" class="space-y-4">
+          
+          <div>
+            <label for="f_nombre" class="block text-xs font-bold text-slate-700 uppercase mb-1">Nombre y Apellido</label>
+            <input type="text" id="f_nombre" required placeholder="Ej. Juan Pérez" class="w-full px-4 py-3 bg-white border border-slate-300 rounded-xl text-sm focus:ring-2 focus:ring-brand-navy focus:outline-none">
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label for="f_motivo" class="block text-xs font-bold text-slate-700 uppercase mb-1">Motivo de consulta</label>
+              <select id="f_motivo" class="w-full px-4 py-3 bg-white border border-slate-300 rounded-xl text-sm focus:ring-2 focus:ring-brand-navy focus:outline-none font-medium">
+                <option value="Tasación de inmueble para venta">Tasación para venta</option>
+                <option value="Peritaje Judicial / Sucesión">Peritaje Judicial / Sucesión</option>
+                <option value="Venta o alquiler de propiedad">Poner en venta o alquiler</option>
+                <option value="Administración de consorcios">Administración de consorcio</option>
+                <option value="Consulta por propiedad publicada">Consulta por propiedad en cartera</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="f_zona" class="block text-xs font-bold text-slate-700 uppercase mb-1">Barrio o Zona</label>
+              <input type="text" id="f_zona" placeholder="Ej. San Justo centro / Ramos Mejía" class="w-full px-4 py-3 bg-white border border-slate-300 rounded-xl text-sm focus:ring-2 focus:ring-brand-navy focus:outline-none">
+            </div>
+          </div>
+
+          <div>
+            <label for="f_detalle" class="block text-xs font-bold text-slate-700 uppercase mb-1">Detalle o consulta adicional (opcional)</label>
+            <textarea id="f_detalle" rows="2" placeholder="Ambientes, características o situación de la propiedad..." class="w-full px-4 py-2.5 bg-white border border-slate-300 rounded-xl text-sm focus:ring-2 focus:ring-brand-navy focus:outline-none"></textarea>
+          </div>
+
+          <button type="submit" class="w-full py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl flex items-center justify-center gap-2 transition shadow-md text-base">
+            <i class="fa-brands fa-whatsapp text-xl"></i>
+            <span>Abrir consulta en WhatsApp</span>
+          </button>
+
+          <p class="text-center text-[11px] text-slate-500 pt-1">
+            Atención directa por Maximiliano Ocanto · Mat. 1024 CPMCLMT
+          </p>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 9. PIE DE PÁGINA INSTITUCIONAL -->
+  <footer class="bg-brand-navyDark text-slate-400 text-xs py-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+      
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 border-b border-slate-800 pb-8">
+        <div>
+          <span class="text-2xl font-black text-white tracking-tight">OCANTO</span>
+          <p class="text-slate-400 mt-1 font-medium">Negocios Inmobiliarios · Tasaciones · Consorcios</p>
+          <p class="text-slate-500 text-[11px] mt-0.5">San Justo, Partido de La Matanza, Provincia de Buenos Aires</p>
+        </div>
+        <div class="text-left md:text-right space-y-1">
+          <p class="text-white font-bold text-sm">Maximiliano Ocanto</p>
+          <p class="text-slate-400">Martillero y Corredor Público · Mat. N.º 1024 CPMCLMT</p>
+          <p class="text-slate-400">Perito Judicial Auxiliar de la Justicia (Acordada 2728/96 SCBA)</p>
+          <p class="text-slate-400">Inscripto RPAC Prov. de Bs. As. (Ley 14.701)</p>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-4 text-slate-500 text-[11px]">
+        <p>© 2026 OCANTO Negocios Inmobiliarios. Todos los derechos reservados.</p>
+        <p>Operaciones inmobiliarias y periciales con matrícula habilitante provincial.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- BOTÓN FLOTANTE PERMANENTE DE WHATSAPP -->
+  <a href="https://wa.me/5491132967120?text=Hola%20Maximiliano,%20te%20escribo%20desde%20ocanto.com.ar" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-emerald-600 hover:bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition hover:scale-105" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp text-3xl"></i>
+  </a>
+
+  <!-- SCRIPT PARA ENVÍO DINÁMICO DE WHATSAPP -->
+  <script>
+    function procesarConsulta(e) {
+      e.preventDefault();
+      
+      const nombre = document.getElementById('f_nombre').value.trim();
+      const motivo = document.getElementById('f_motivo').value;
+      const zona = document.getElementById('f_zona').value.trim();
+      const detalle = document.getElementById('f_detalle').value.trim();
+
+      let mensaje = `Hola Maximiliano, mi nombre es ${nombre}. Me contacto desde ocanto.com.ar por: *${motivo}*.`;
+      
+      if (zona) {
+        mensaje += ` Zona: ${zona}.`;
+      }
+      if (detalle) {
+        mensaje += ` Detalle: ${detalle}`;
+      }
+
+      const url = `https://wa.me/5491132967120?text=${encodeURIComponent(mensaje)}`;
+      window.open(url, '_blank');
+    }
+  </script>
+
+</body>
+</html>
